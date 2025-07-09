@@ -1,0 +1,165 @@
+# Build artifacts
+os-sim
+*.o
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+*.dSYM
+*.su
+*.idb
+*.pdb
+
+# Debug directories
+debug/
+release/
+build/
+
+# Compiler generated files
+*.gch
+*.pch
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+
+# Profiling data
+*.prof
+*.gprof
+
+# Valgrind output
+valgrind-out.txt
+
+# Thread sanitizer output
+*.tsan
+
+# Memory sanitizer output
+*.msan
+
+# Address sanitizer output
+*.asan
+
+# Undefined behavior sanitizer output
+*.ubsan
